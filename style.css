@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbarname h3{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 6px;
+}
+.web-adm{
+    box-shadow: inset 0px 1px 10px 0 #776b6b;
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.8),rgba(225, 225, 245, 0.1));
+}
+.logoutbtn{
+    margin: 10px auto;
+}
+#logoutbtn1 {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 5px;
+    background-color: #42454A;
+    -webkit-box-shadow: inset -1px 1px 20px 0 #000000;
+    -moz-box-shadow: inset -1px 1px 20px 0 #000000;
+    box-shadow: inset -1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #2d3033 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 1px;
+ }
+ 
+ #logoutbtn1:hover {
+    border: solid #ffffff 1px;
+    background: #fbfdff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #3D94F6);
+    background-image: -moz-linear-gradient(top, #ffffff, #3D94F6);
+    background-image: -ms-linear-gradient(top,  #ffffff, #3D94F6);
+    background-image: -o-linear-gradient(top, #ffffff, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #ffffff, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .admin-icon-bar{
+    background-color: rgb(220, 226, 231);
+    box-shadow: inset 1px 1px 5px rgb(22, 22, 20);
+ }
+ .adminicon i{
+    padding-left: 55px;
+ }
+ .adminicon span{
+    
+    font-size: 20px;
+ }
+ .s{
+    padding: 10px;
+ }
+ .barnavigation b{
+     height: 30px;
+    width: 120px;
+    background-color: rgb(190, 201, 186);
+    color: rgb(24, 24, 27);
+    display: inline-block;
+    padding: 3px 3px;
+    border-radius: 5px;
+ }
+ .hor-line1 hr{
+     background-color: rgb(255, 255, 255);
+     margin-top:30px;
+     padding: 1px;
+     
+ }
+ .hor-line2 hr{
+    background-color: rgb(255, 255, 255);
+    margin-top:70px;
+    padding: 1px;
+ }
+ .sidemenulink span{
+     padding-left: 15px;
+     
+ }
+
+
+ .sidemenulink button{
+    float: right;
+    background-color: rgba(113, 150, 138, 0.0);
+    border: 0px;
+    
+ }
+ .sidemenulink ul{
+     list-style-type: none;
+     padding-left: 60px;
+     padding-top: 5px;
+ }
+ .sidemenulink li{
+    margin: 3px auto;
+ }
+ .sidemenulink li a{
+     text-decoration: none;
+     color: rgb(15, 12, 10);
+     padding-left: 7px;
+
+ }
+ .sidemenu{
+     background-color: rgba(113, 150, 138, 0.774);
+     padding-left: 3px;
+ }
+ .copyright{
+     padding-left: 15px;
+     padding-top: 10px;
+ }
+
+
+ .info-msg{
+     background-color: rgb(178, 178, 212);
+     width: 100%;
+     height: 40px;
+     margin: 10px ;
+     padding: 5px;
+     border-radius: 5px;
+     border: inset 1px 1px rgb(7, 7, 7);
+
+
+ }
+ .info-msg p{
+     margin-left: 5px;
+     padding-left: 5px;
+ }
+
+ .insert-dpt h4{
+     width: 90%;
+     background-color: antiquewhite;
+ }
+ .input-data-dpt{
+    width: 30%;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 30px;
+ }
+ .showdpt{
+     margin-top: 60px;
+ }
+ .showdpt span{
+     background-color: aqua;
+ }
+ #dlt{
+     border-radius: 5px;
+ }
+ /* code start from user_details.php */
+
+ .btn-for-user h3{
+    float: left;
+   
+   }
+ .btn-for-user button{
+     float: right;
+     border: 0px;
+
+     
+  }
+  .btn-for-user button a{
+    text-decoration: none;
+    background: #F63D46;
+   background-image: -webkit-linear-gradient(top, #F63D46, #D01ECD);
+   background-image: -moz-linear-gradient(top, #F63D46, #D01ECD);
+   background-image: -ms-linear-gradient(top, #F63D46, #D01ECD);
+   background-image: -o-linear-gradient(top, #F63D46, #D01ECD);
+   background-image: -webkit-gradient(to bottom, #F63D46, #D01ECD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #C4FB02;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+  }
+
+.btn-for-user button a:hover{
+    border: solid #337FED 0px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}  
+
+/* add it team code start */
+.newuser_btn button{
+    float: right;
+    
+
+}
+.newuser_btn button a{
+    color: brown;
+    text-decoration: none;
+}
+.itteam h3{
+    width: 300px;
+    float: left;
+}
+#dpt_msg{
+    color: red;
+    animation-name: sam;
+    animation-duration: 3s;
+}@keyframes sam{
+    from{color: rgb(133, 20, 20);
+        display: none;
+    }
+    to{
+        color: rgb(88, 76, 76);
+        display: hidden;
+    }
+}
